@@ -1,10 +1,7 @@
 name: Main kittygram_final workflow
 
 on:
-  push:
-    branches:
-      - main
-      - '*'
+  push
 
 jobs:
   tests:
